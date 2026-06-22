@@ -6,7 +6,7 @@ import Card3 from '../assets/Card3.png'
 const Cards = () => {
     return (
         <div id="cards" className="grid gap-8 md:grid-cols-3">
-            <article className="rounded-4xl border border-slate-200 bg-white p-6 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl cursor-pointer">
+            <article className="rounded-4xl border border-slate-200 bg-white p-6 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl cursor-pointer animate-slide-in-up">
                 <img className="h-56 w-full rounded-3xl object-cover" src={Card1} alt="Card-1" />
                 <div className="space-y-4 pt-5">
                     <h2 className="text-2xl font-bold text-slate-900">🌐 Responsive Website</h2>
@@ -16,7 +16,7 @@ const Cards = () => {
                     <p className="text-slate-600">React.TailwindCSS</p>
                 </div>
             </article>
-            <article className="rounded-4xl border border-slate-200 bg-white p-6 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl cursor-pointer">
+            <article className="rounded-4xl border border-slate-200 bg-white p-6 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl cursor-pointer animate-slide-in-up">
                 <img className="h-56 w-full rounded-3xl object-cover" src={Card2} alt="Card-2" />
                 <div className="space-y-4 pt-5">
                     <h2 className="text-2xl font-bold text-slate-900">🎨 Frontend UI Design</h2>
@@ -26,7 +26,7 @@ const Cards = () => {
                     <p className="text-slate-600">Flexbox.Basic Animations</p>
                 </div>
             </article>
-            <article className="rounded-4xl border border-slate-200 bg-white p-6 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl cursor-pointer">
+            <article className="rounded-4xl border border-slate-200 bg-white p-6 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl cursor-pointer animate-slide-in-up">
                 <img className="h-56 w-full rounded-3xl object-cover" src={Card3} alt="Card-3" />
                 <div className="space-y-4 pt-5">
                     <h2 className="text-2xl font-bold text-slate-900">👨‍💻 Frontend Developer</h2>
